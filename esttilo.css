@@ -1,0 +1,68 @@
+/*estilo de fondo*/
+body {
+    background-color: #2f75914d; 
+}
+h1{
+    color: rgb(0, 0, 0);
+    background-color: rgba(37, 38, 107, 0.451);
+    text-align: center;
+    padding: 20px;
+}
+h2{
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: rgba(49, 50, 107, 0.451);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+p{
+    width: 90%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: rgba(149, 160, 85, 0.644);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.imagen{
+    width: 200px; /* Ajusta el tamaño de la imagen */
+    border: 5px solid #063394; /* Marco de 5px con color */
+    border-radius: 60px; /* Bordes redondeados */
+    box-shadow: 10px 10px 15px rgba(100, 64, 184, 0.5); /* Sombra */
+    transition: transform 0.3s ease; /* Transición para efectos */
+}
+
+.container{
+    background-color: #238578;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    width: 160px;
+    border-radius: 60px;
+}
+.intro{
+    background-color: #238578;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    width: 160px;
+    border-radius: 60px;
+}
+.cuadro {
+    text-align: center;
+    width: 1300px;
+    height: 200px;
+    background-color: rgb(128, 196, 139); 
+    border: 5px solid black;
+    padding: 20px;
+    margin: 0 auto; 
+}
+.rectangulo {
+    place-items: center;
+    justify-content: center;
+    width: 200px;
+    background-color: rgba(84, 156, 100, 0.842); 
+    border: 5px solid black;
+    margin: 0 auto; 
+    border-radius: 8px;
+	box-shadow: 0 0 10px rgb(0,0,0.1);
+    font-family: Arial, sans-serif;
+}
